@@ -7,14 +7,13 @@ function compute()
     var year = new Date().getFullYear()+parseInt(years);  
     document.getElementById('p').innerHTML=principal;
     document.getElementById('r').innerHTML=rate;
-    document.getElementById('t').innerHTML=Number(principal)+Number(interest);
+    document.getElementById('t').innerHTML=interest;
     document.getElementById('y').innerHTML=year;
 
     if(principal==0 || principal<=0){
         alert("Enter a positive number");
         document.getElementById("principal").focus();
     }
-    
 }
   
 function updateRate() 
