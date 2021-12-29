@@ -1,4 +1,31 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family:arial;
+    color:white;
+}
+
+
+h1{
+    display:inline;
+    color:grey;
+    font-family: Verdana;
+    display:inline-block;
+}
+
+.maindiv{
+
+    align-items: center;
+    background-color: white;
+    color:black;
+    width:300px;
+    padding:20px;
+    border-radius: 25px;
+    background-position: center;
+}
+
+#p, #r, #t, #y{
+   background-color : yellow;
+}
+
 
 
